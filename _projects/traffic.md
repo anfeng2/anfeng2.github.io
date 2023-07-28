@@ -10,22 +10,25 @@ related_publications:
 
 <div class="post-title font-weight-bold"> Open-Ended EDA </div>
 
-From the two histograms below, we saw that the mean travel time decreased after COVID-19 restrictions began in San Francisco. It went from a max mean travel time of around 3750 seconds to a max mean travel time of around 2750 seconds. We thought that a potential reason for this was because less people are commuting to work, since most people are working from home with the COVID-19 restrictions going on in San Francisco. We then decided to plot out the differences in mean travel time from Hayes Valley pre and post COVID-19 restrictions to see which areas had a decrease/increase in mean travel time. Negative changes in travel time (blue/purple) represents a decrease in mean travel time from Hayes Valley and positive changes in travel time (light green, yellow) represents an increase in mean travel time from Hayes Valley.
-
-In addition, we noticed that the north most part of the peninsula, around San Rafael, saw the greatest increase in travel time after COVID restrictions were put in place. This was a jarring observation because most of the other areas with data saw little change, hovering around zero difference in travel time (green), or a decrease, especially to areas outside of the immediate metropolitan area (East and South bay). We found it interesting that even though traveling to the Oakland and San Rafael areas both require crossing a bridge over the bay, only San Rafael saw an increase in travel times while the areas nearest to Oakland saw a decrease.
-
-
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/hist_of_avg_travel_time.png" title="histogram of average travel time" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
+        From these two histograms, we saw that the mean travel time decreased after COVID-19 restrictions began in San Francisco. It went from a max mean travel time of around 3750 seconds to a max mean travel time of around 2750 seconds. We thought that a potential reason for this was because less people are commuting to work, since most people are working from home with the COVID-19 restrictions going on in San Francisco. We then decided to plot out the differences in mean travel time from Hayes Valley pre and post COVID-19 restrictions to see which areas had a decrease/increase in mean travel time. Negative changes in travel time (blue/purple) represents a decrease in mean travel time from Hayes Valley and positive changes in travel time (light green, yellow) represents an increase in mean travel time from Hayes Valley.
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-2 mt-md-0">
+        In addition, we noticed that the north most part of the peninsula, around San Rafael, saw the greatest increase in travel time after COVID restrictions were put in place. This was a jarring observation because most of the other areas with data saw little change, hovering around zero difference in travel time (green), or a decrease, especially to areas outside of the immediate metropolitan area (East and South bay). We found it interesting that even though traveling to the Oakland and San Rafael areas both require crossing a bridge over the bay, only San Rafael saw an increase in travel times while the areas nearest to Oakland saw a decrease.
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/heatmap.png" title="heatmap of the peninsula" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<!-- <div class="caption">
     On the left, histograms of average travel time before and after lockdown. Right, a heatmap of the peninsula.
-</div>
+</div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
