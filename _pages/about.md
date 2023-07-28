@@ -18,29 +18,33 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I was born and raised in San Francisco and am currently a senior at UC Berkeley studying computer science and data science! In my free time, I like to take naps, listen to music (send me music recs! 🎶), and have recently gotten into 3d origami! Take a look at some 3d origamis I made below!
+Hi! I was born and raised in San Francisco and am currently a senior at UC Berkeley studying computer science and data science! In my free time, I like to take naps, listen to music (send me music recs! 🎶), and have recently gotten into 3d origami! 
+
+
+
+Take a look at some 3d origamis I made below!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/puppy.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/puppy.jpg" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pinkpenguin.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/pinkpenguin.png" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/minions.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/minions.png" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/purplepenguin.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/purplepenguin.png" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/winnie.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/winnie.png" class="img-fluid rounded z-depth-1"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/icebear.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/icebear.png" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 
