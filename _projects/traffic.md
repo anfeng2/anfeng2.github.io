@@ -13,9 +13,9 @@ related_publications:
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/hist_of_avg_travel_time.png" title="histogram of average travel time" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="caption">
-        Histograms of the average travel times before and after the lockdown.
+        <div class="caption">
+            Histograms of the average travel times before and after the lockdown.
+        </div>
     </div>
     <div class="col-sm mt-2 mt-md-0">
         From these two histograms, we saw that the mean travel time decreased after COVID-19 restrictions began in San Francisco. It went from a max mean travel time of around 3750 seconds to a max mean travel time of around 2750 seconds. We thought that a potential reason for this was because less people are commuting to work, since most people are working from home with the COVID-19 restrictions going on in San Francisco. We then decided to plot out the differences in mean travel time from Hayes Valley pre and post COVID-19 restrictions to see which areas had a decrease/increase in mean travel time. Negative changes in travel time (blue/purple) represents a decrease in mean travel time from Hayes Valley and positive changes in travel time (light green, yellow) represents an increase in mean travel time from Hayes Valley.
@@ -121,17 +121,21 @@ By doing this, the area under the ROC curve hovered around the same value as bef
 
 When we were looking at the data, we saw that there were two columns labeled, “Range - Lower Bound Travel Time (Seconds)” and “Range - Upper Bound Travel Time (Seconds)”, so we decided to take the difference of those two columns and put it into a new column called, “Range Travel Time”. When we built our baseline model, we included all the columns with numerical values into our X_train, which included all three columns of “Range - Lower Bound Travel Time (Seconds)”, “Range - Upper Bound Travel Time (Seconds)”, and “Range Travel Time”. We realized that since we already have “Range Travel Time”, it would be redundant to have the other two columns, especially since “Range Travel Time” is a linear combination of the other two. These three columns all describe the same aspect of the data, namely the range travel time in seconds, which is a base we already covered with the feature of range travel time. Including the other two columns(“Range - Lower Bound Travel Time (Seconds)”, “Range - Upper Bound Travel Time (Seconds)”) would overfit to specifics of the training data without actually increasing the efficacy of our classification model.
 
-Our solution was to drop the columns: “Range - Lower Bound Travel Time (Seconds)” and “Range - Upper Bound Travel Time (Seconds)”, so that we would just have “Range Travel Time”. This solution is the right thing to do because that way we won’t have redundant features in our X_train and X_test.
-
 <div class="row">
-    <div class="col-sm mt-2 mt-md-0"> The result was that we ended up increasing the area under the ROC curve from 0.8519 in improvement #1 to 0.8545 for pre-lockdown and from 0.7960 to 0.8606 for post-lockdown. Attached to the right are the ROC curves for pre-lockdown and post-lockdown. Compared to our baseline model’s ROC curves, our ROC curves for our improvement #2 is better (closer to the top left of the graph).
+    <div class="col-sm mt-2 mt-md-0"> 
+        <p>
+            Our solution was to drop the columns: “Range - Lower Bound Travel Time (Seconds)” and “Range - Upper Bound Travel Time (Seconds)”, so that we would just have “Range Travel Time”. This solution is the right thing to do because that way we won’t have redundant features in our X_train and X_test.
+        </p>
+        <p>
+            The result was that we ended up increasing the area under the ROC curve from 0.8519 in improvement #1 to 0.8545 for pre-lockdown and from 0.7960 to 0.8606 for post-lockdown. Attached to the right are the ROC curves for pre-lockdown and post-lockdown. Compared to our baseline model’s ROC curves, our ROC curves for our improvement #2 is better (closer to the top left of the graph).
+        </p>
     </div>
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/roc_curve_2.png" title="ROC curve after model improvement 2" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+            ROC curves after model improvement #2 for pre and post lockdown.
+        </div>
     </div>
-</div>
-<div class="caption">
-    ROC curves after model improvement #2 for pre and post lockdown.
 </div>
 
 <div class="post-title font-weight-bold"> Conclusion </div>
