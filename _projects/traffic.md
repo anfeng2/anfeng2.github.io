@@ -14,11 +14,11 @@ related_publications:
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/hist_of_avg_travel_time.png" title="histogram of average travel time" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-2 mt-md-0">
-        From these two histograms, we saw that the mean travel time decreased after COVID-19 restrictions began in San Francisco. It went from a max mean travel time of around 3750 seconds to a max mean travel time of around 2750 seconds. We thought that a potential reason for this was because less people are commuting to work, since most people are working from home with the COVID-19 restrictions going on in San Francisco. We then decided to plot out the differences in mean travel time from Hayes Valley pre and post COVID-19 restrictions to see which areas had a decrease/increase in mean travel time. Negative changes in travel time (blue/purple) represents a decrease in mean travel time from Hayes Valley and positive changes in travel time (light green, yellow) represents an increase in mean travel time from Hayes Valley.
-    </div>
     <div class="caption">
         Histograms of the average travel times before and after the lockdown.
+    </div>
+    <div class="col-sm mt-2 mt-md-0">
+        From these two histograms, we saw that the mean travel time decreased after COVID-19 restrictions began in San Francisco. It went from a max mean travel time of around 3750 seconds to a max mean travel time of around 2750 seconds. We thought that a potential reason for this was because less people are commuting to work, since most people are working from home with the COVID-19 restrictions going on in San Francisco. We then decided to plot out the differences in mean travel time from Hayes Valley pre and post COVID-19 restrictions to see which areas had a decrease/increase in mean travel time. Negative changes in travel time (blue/purple) represents a decrease in mean travel time from Hayes Valley and positive changes in travel time (light green, yellow) represents an increase in mean travel time from Hayes Valley.
     </div>
 </div>
 
@@ -35,7 +35,7 @@ In addition, we noticed that the north most part of the peninsula, around San Ra
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/hist_travel_time_pre.png.png" title="histogram of pre-lockdown" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/hist_travel_time_pre.png" title="histogram of pre-lockdown" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/hist_travel_time_post.png" title="histogram of post-lockdown" class="img-fluid rounded z-depth-1" %}
@@ -85,16 +85,16 @@ Our two models (separated by pre- and post-COVID lockdown) are both binary class
     <div class="col-sm mt-2 mt-md-0">
         The two ROC curves to the left plots false positive rate (FPR) against true positive rate (TPR). False positive rate (FP / (FP + TN)) tells us how many North Bay points were wrongly classified as East Bay out of all the actual North Bay points. True positive rate (TP / (TP + FN)) tells us how many actual East Bay points were predicted to be East Bay out of all the actual East Bay points. We want our ROC curves to be as close to the “top left” of this graph as possible, because that indicates more correctly identified positives (higher FP). To this standard, the baseline model for post-lockdown is not performing that well. The ROC curve for post-lockdown is not at all close to the top left of the graph, it rather looks like a logarithmic curve. 
     </div>
-    <div class="caption">
-        ROC curves for baseline model pre and post lockdown.
-    </div>
+</div>
+<div class="caption">
+    ROC curves for baseline model pre and post lockdown.
 </div>
 
 We will look at the area under the curve for the ROC curves (best possible AUC is 1 and worst is 0.5) as a measure of how well our model does at classification. Our AUC for pre and post lockdown baseline models are 0.8537 and 0.7876, respectively. However, the baseline model test accuracies are 0.8649 and 0.8600, respectively. The model accuracy is high compared with the AUC especially for post-lockdown. This is a sign that model accuracy might not be the best metric to use for seeing how well our model classifies locations.
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/confusion_matrix_pre.png.png" title="confusion matrix of pre-lockdown" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/confusion_matrix_pre.png" title="confusion matrix of pre-lockdown" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/confusion_matrix_post.png" title="confusion matrix of post-lockdown" class="img-fluid rounded z-depth-1" %}
@@ -124,7 +124,7 @@ When we were looking at the data, we saw that there were two columns labeled, �
 Our solution was to drop the columns: “Range - Lower Bound Travel Time (Seconds)” and “Range - Upper Bound Travel Time (Seconds)”, so that we would just have “Range Travel Time”. This solution is the right thing to do because that way we won’t have redundant features in our X_train and X_test.
 
 <div class="row">
-    <div> The result was that we ended up increasing the area under the ROC curve from 0.8519 in improvement #1 to 0.8545 for pre-lockdown and from 0.7960 to 0.8606 for post-lockdown. Attached to the right are the ROC curves for pre-lockdown and post-lockdown. Compared to our baseline model’s ROC curves, our ROC curves for our improvement #2 is better (closer to the top left of the graph).
+    <div class="col-sm mt-2 mt-md-0"> The result was that we ended up increasing the area under the ROC curve from 0.8519 in improvement #1 to 0.8545 for pre-lockdown and from 0.7960 to 0.8606 for post-lockdown. Attached to the right are the ROC curves for pre-lockdown and post-lockdown. Compared to our baseline model’s ROC curves, our ROC curves for our improvement #2 is better (closer to the top left of the graph).
     </div>
     <div class="col-sm mt-2 mt-md-0">
         {% include figure.html path="assets/img/roc_curve_2.png" title="ROC curve after model improvement 2" class="img-fluid rounded z-depth-1" %}
