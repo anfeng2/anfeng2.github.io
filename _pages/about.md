@@ -18,7 +18,9 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I was born and raised in San Francisco and am currently a senior at UC Berkeley studying computer science and data science! In my free time, I like to take naps, listen to music (send me music recs! 🎶), and have recently gotten into 3d origami! 
+Hi! I was born and raised in San Francisco and am currently a senior at UC Berkeley studying computer science and data science! In my free time, I like to take naps, listen to music (send me music recs! 🎶), and have recently gotten into 3d origami! Take a look at some 3d origamis I made below!
+
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
