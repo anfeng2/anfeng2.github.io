@@ -6,7 +6,6 @@ img: assets/img/heatmap.png
 importance: 1
 category: work
 related_publications: 
-url: traffic
 ---
 
 <div class="post-title font-weight-bold"> Open-Ended EDA </div>
