@@ -21,33 +21,6 @@ social: true  # includes social icons at the bottom of the page
 Hi! I was born and raised in San Francisco and am currently a senior at UC Berkeley studying computer science and data science! In my free time, I like to take naps, listen to music (send me music recs! 🎶), and have recently gotten into 3d origami! 
 
 
-
-Take a look at some 3d origamis I made below!
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/puppy.jpg" class="img-fluid rounded z-depth-1"%}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pinkpenguin.png" class="img-fluid rounded z-depth-1"%}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/minions.png" class="img-fluid rounded z-depth-1"%}
-    </div>
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/purplepenguin.png" class="img-fluid rounded z-depth-1"%}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/winnie.png" class="img-fluid rounded z-depth-1"%}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/icebear.png" class="img-fluid rounded z-depth-1"%}
-    </div>
-</div>
-
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
