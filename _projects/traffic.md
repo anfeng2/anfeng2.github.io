@@ -4,7 +4,7 @@ title: Traffic
 description: The Implications of Bridges on Bay Area Traffic Predictions Before and After COVID Lockdowns
 img: assets/img/heatmap.png
 importance: 1
-category: work
+category: 
 related_publications: 
 ---
 
