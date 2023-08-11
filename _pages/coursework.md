@@ -5,34 +5,36 @@ title: Coursework
 description: Classes I've taken at UC Berkeley
 nav: true
 nav_order: 3
+toc:
+  sidebar: left
 ---
 
-##### **Fall 2023** <br>
+#### **Fall 2023** <br>
 *COMPSCI 186: Introduction to Database Systems* - Alvin Cheung <br>
 *GLOBAL 150Q: Special Topics In Asia* - Crystal Cohen <br>
 *UGBA 135: Personal Financial Management* - Terrance Odean and Robert Shaye <br>
 *COLWRIT 1: Grammar and Vocabulary of Written English* - Nancy Hunt 
 
-##### **Summer 2023** <br>
+#### **Summer 2023** <br>
 *COMPSCI 169A: Introduction to Software Engineering* - Ethan Gnibus and Simon Jovanovic <br>
 *UGBA 147: Special Topics in Operations and Information Technology Management* - Richard Huntsinger 
 
-##### **Spring 2022** <br>
+#### **Spring 2022** <br>
 *[COMPSCI 189: Introduction to Machine Learning](https://people.eecs.berkeley.edu/~jrs/189/)* - Jonathan Shewchuk <br>
 *[COMPSCI 161: Computer Security](https://sp23.cs161.org/)* - Peyrin Kao and Raluca Ada Popa <br>
 *DATA C104: Human Contexts and Ethics of Data* - Ari Edmundson and Massimo Mazzotti 
 
-##### **Fall 2022** <br>
+#### **Fall 2022** <br>
 *[DATA 101: Data Engineering](https://fa22.data101.org/)* - Lakshya Jain <br>
 *[COMPSCI 170: Efficient Algorithms and Intractable Problems](https://cs170.org/)* - James Demmel and Jelani Nelson <br>
 *[COMPSCI 188: Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/fa22/)* - Peyrin Kao and Igor Mordatch  <br>
 *STAT 33B: Introduction to Advanced Programming in R* - Gaston Sanchez
 
-##### **Summer 2022** <br>
+#### **Summer 2022** <br>
 *[COMPSCI 61C: Great Ideas of Computer Architecture (Machine Structures)](https://inst.eecs.berkeley.edu/~cs61c/su22/)* - Caroline Liu, Justin Yokota, and Peyrin Kao <br>
 *UGBA 104: Introduction to Business Analytics* - Richard Huntsinger
 
-##### **Spring 2022** <br>
+#### **Spring 2022** <br>
 *[DATA C140: Probability for Data Science](http://prob140.org/)* - Ani Adhikari <br>
 *[COMPSCI 70: Discrete Mathematics and Probability Theory](https://www.sp22.eecs70.org/)* - Satish Rao and Koushik Sen <br>
 *[EECS 16A: Designing Information Devices and Systems I](https://inst.eecs.berkeley.edu/~eecs16a/sp22/)* - Ana Arias and Michael Lustig

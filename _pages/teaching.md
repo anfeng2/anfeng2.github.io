@@ -5,12 +5,7 @@ title: Teaching
 description: 
 nav: true
 nav_order: 4
-toc:
-  sidebar: left
 ---
-
-#### Courses I've taught at UC Berkeley
-<br>
 
 ##### [DATA C100: Principles & Techniques of Data Science](https://ds100.org/fa23/)
 - Fall 2023: 8-hr Teaching Assistant
@@ -30,7 +25,6 @@ toc:
 <br>
 
 #### Resources/Notes/Cheatsheets
-<br>
 
 ##### COMPSCI 70: Discrete Mathematics and Probability Theory
 - [Midterm Cheatsheet](https://drive.google.com/file/d/1shgey92ZXkBadddyvAVF2BtgISZXW3mS/view?usp=drive_link)
