@@ -2,35 +2,31 @@
 layout: page
 title: World
 description: Built a 2D tile-based world exploration engine with the ability to load, replay, and save the world generated from a seed. Ensured that each new iteration of a world generates a randomized maze with randomized themes, randomized hallways, and randomized rooms where an avatar can move with WASD 
-img: assets/img/3.jpg
+img: assets/img/project_world/home_screen.png
 importance: 2
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+#### Themes
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_world/water.png" title="blue maze" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"> 
+            Ocean
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_world/grass.png" title="green maze" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"> 
+            Prairie
+        </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_world/desert.png" title="brown maze" class="img-fluid rounded z-depth-1" %}
+        Desert
     </div>
 </div>
-<div class="caption">
+<!-- <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
@@ -76,4 +72,4 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->

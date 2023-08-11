@@ -2,7 +2,7 @@
 layout: page
 title: Traffic
 description: The Implications of Bridges on Bay Area Traffic Predictions Before and After COVID Lockdowns
-img: assets/img/heatmap.png
+img: assets/img/project_traffic/heatmap.png
 importance: 1
 category: 
 related_publications: 
@@ -12,7 +12,7 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/hist_of_avg_travel_time.png" title="histogram of average travel time" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/hist_of_avg_travel_time.png" title="histogram of average travel time" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Histograms of the average travel times before and after the lockdown.
         </div>
@@ -24,7 +24,7 @@ related_publications:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/heatmap.png" title="heatmap of the peninsula" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/heatmap.png" title="heatmap of the peninsula" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -35,10 +35,10 @@ In addition, we noticed that the north most part of the peninsula, around San Ra
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/hist_travel_time_pre.png" title="histogram of pre-lockdown" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/hist_travel_time_pre.png" title="histogram of pre-lockdown" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/hist_travel_time_post.png" title="histogram of post-lockdown" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/hist_travel_time_post.png" title="histogram of post-lockdown" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -80,7 +80,7 @@ Our two models (separated by pre- and post-COVID lockdown) are both binary class
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/roc_curve.png" title="roc curve" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/roc_curve.png" title="roc curve" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
         The two ROC curves to the left plots false positive rate (FPR) against true positive rate (TPR). False positive rate (FP / (FP + TN)) tells us how many North Bay points were wrongly classified as East Bay out of all the actual North Bay points. True positive rate (TP / (TP + FN)) tells us how many actual East Bay points were predicted to be East Bay out of all the actual East Bay points. We want our ROC curves to be as close to the “top left” of this graph as possible, because that indicates more correctly identified positives (higher FP). To this standard, the baseline model for post-lockdown is not performing that well. The ROC curve for post-lockdown is not at all close to the top left of the graph, it rather looks like a logarithmic curve. 
@@ -94,10 +94,10 @@ We will look at the area under the curve for the ROC curves (best possible AUC i
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/confusion_matrix_pre.png" title="confusion matrix of pre-lockdown" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/confusion_matrix_pre.png" title="confusion matrix of pre-lockdown" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/confusion_matrix_post.png" title="confusion matrix of post-lockdown" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/confusion_matrix_post.png" title="confusion matrix of post-lockdown" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -131,7 +131,7 @@ When we were looking at the data, we saw that there were two columns labeled, �
         </p>
     </div>
     <div class="col-sm mt-2 mt-md-0">
-        {% include figure.html path="assets/img/roc_curve_2.png" title="ROC curve after model improvement 2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/project_traffic/roc_curve_2.png" title="ROC curve after model improvement 2" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             ROC curves after model improvement #2 for pre and post lockdown.
         </div>
