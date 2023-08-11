@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: anfeng2@berkeley.edu • <a href='http://linkedin.com/in/angelaxfeng'>linkedin.com/in/angelaxfeng</a>
 
