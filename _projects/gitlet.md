@@ -1,15 +1,15 @@
 ---
 layout: page
 title: Gitlet
-description: Programmed a version-control system that has the same commands as Git, but with an additional command (find)
+description: A version-control system that has the same commands as Git, but with an additional command (find)
 img:
-importance: 3
+importance: 4
 category:
 ---
 
 Gitlet is a version-control system that mimics some of the basic features of  Git. 
 
-###### Gitlet can:
+##### Gitlet can:
 1. Save the contents of entire directories of files.
 2. Restore a version of one or more files or entire commits. 
 3. View the history of your backups. 

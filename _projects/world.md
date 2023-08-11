@@ -1,7 +1,7 @@
 ---
 layout: page
 title: World
-description: Built a 2D tile-based world exploration engine with the ability to load, replay, and save the world generated from a seed. Ensured that each new iteration of a world generates a randomized maze with randomized themes, randomized hallways, and randomized rooms where an avatar can move with WASD 
+description: A 2D tile-based world exploration engine with the ability to load, replay, and save the world generated from a seed and each new iteration of a world generates a randomized maze with randomized themes, randomized hallways, and randomized rooms where an avatar can move with WASD 
 img: assets/img/project_world/home_screen.png
 importance: 2
 ---
@@ -37,7 +37,7 @@ importance: 2
     </div>
 </div>
 
-###### Each new iteration of a game generates a randomized maze with:
+##### Each new iteration of a game generates a randomized maze with:
 - randomized themes
 - randomized hallways
 - randomized rooms
