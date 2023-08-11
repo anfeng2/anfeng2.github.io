@@ -8,18 +8,18 @@ nav_order: 3
 ---
 
 ##### **Fall 2023** <br>
-COMPSCI 186: Introduction to Database Systems - Alvin Cheung <br>
-GLOBAL 150Q: Special Topics In Asia - Crystal Cohen <br>
-UGBA 135: Personal Financial Management - Terrance Odean and Robert Shaye <br>
-COLWRIT 1: Grammar and Vocabulary of Written English - Nancy Hunt 
+*COMPSCI 186: Introduction to Database Systems* - Alvin Cheung <br>
+*GLOBAL 150Q: Special Topics In Asia* - Crystal Cohen <br>
+*UGBA 135: Personal Financial Management* - Terrance Odean and Robert Shaye <br>
+*COLWRIT 1: Grammar and Vocabulary of Written English* - Nancy Hunt 
 
 ##### **Summer 2023** <br>
-COMPSCI 169A: Introduction to Software Engineering - Ethan Gnibus and Simon Jovanovic <br>
-UGBA 147: Special Topics in Operations and Information Technology Management - Richard Huntsinger 
+*COMPSCI 169A: Introduction to Software Engineering* - Ethan Gnibus and Simon Jovanovic <br>
+*UGBA 147: Special Topics in Operations and Information Technology Management* - Richard Huntsinger 
 
 ##### **Spring 2022** <br>
-[COMPSCI 189: Introduction to Machine Learning](https://people.eecs.berkeley.edu/~jrs/189/) - Jonathan Shewchuk <br>
-[COMPSCI 161: Computer Security](https://sp23.cs161.org/) - Peyrin Kao and Raluca Ada Popa <br>
+[*COMPSCI 189: Introduction to Machine Learning*](https://people.eecs.berkeley.edu/~jrs/189/) - Jonathan Shewchuk <br>
+[**COMPSCI 161: Computer Security**](https://sp23.cs161.org/) - Peyrin Kao and Raluca Ada Popa <br>
 DATA C104: Human Contexts and Ethics of Data - Ari Edmundson and Massimo Mazzotti 
 
 ##### **Fall 2022** <br>
