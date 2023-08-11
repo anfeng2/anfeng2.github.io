@@ -6,9 +6,11 @@ img: assets/img/project_traffic/heatmap.png
 importance: 1
 category: 
 related_publications: 
+toc:
+  sidebar: left
 ---
 
-<div class="post-title font-weight-bold"> Open-Ended EDA </div>
+### **Open-Ended EDA**
 
 <div class="row">
     <div class="col-sm mt-2 mt-md-0">
@@ -50,7 +52,7 @@ In order to better visualize the travel times from Hayes Valley to either the Ea
 Our first observation is that the data of traffic to the East Bay is much more spread out than traffic to the North Bay. In pre-lockdown data, mean North Bay travel times centered around 1200 (20 minutes) or 1300 seconds (22 minutes) while in post-lockdown data, mean North Bay travel times centered around 1000 seconds (17 minutes). As with the heat map visualizations shown prior to the histograms, we see greater differences in the mean travel times for the East Bay post-lockdown compared to the changes in mean travel times for the North Bay post-lockdown. Further analysis into the changes between pre-lockdown and post-lockdown for both East Bay and North Bay will help us better understand the influence of bridges after the COVID-19 restrictions.
 
 
-<div class="post-title font-weight-bold"> Open-ended Questions About the Data </div>
+### **Open-ended Questions About the Data**
 
 <ul>
     <li>Why was there a huge increase in travel time near San Rafael? Why was there a huge decrease in travel time near San Jose?</li>
@@ -58,7 +60,7 @@ Our first observation is that the data of traffic to the East Bay is much more s
     <li>What times of day contributed most to the difference in mean travel time (or lack thereof) between pre and post lockdown?</li>
 </ul>
 
-<div class="post-title font-weight-bold"> Problem </div>
+### **Problem**
 
 Bridges play a key role in the change in travel times from Hayes Valley before and after the COVID-19 restrictions in San Francisco. 
 
@@ -66,7 +68,7 @@ To confirm this hypothesis, we plan to split the pre-lockdown data into training
 
 We plan on adding an extra column to our data frame containing whether the destination is in the North Bay or East Bay. This is what our model is trying to predict using the columns in the dataframe (ie 'Mean Travel Time (Seconds)', 'Range - Lower Bound Travel Time (Seconds)', 'Range - Upper Bound Travel Time (Seconds)', 'speed_mph_mean', ‘Range Travel Time’). We decided to use all the columns in our dataframe as features because they all seem like they would play a part in predicting locations. In our EDA, we noticed that the changes in mean travel time was higher and lower in some areas, so that might play a significant role in classifying points as North or East Bay. Also, in Step 4, we noticed how average speed went up in post-lockdown compared with pre-lockdown, so we decided to use the “speed_mph_mean” column in our dataframe as a feature.
 
-<div class="post-title font-weight-bold"> Modeling: Logistic Regression for Binary Classification </div>
+### **Modeling: Logistic Regression for Binary Classification**
 
 We used a Logistic Regression model to classify locations. It is appropriate because it is used for classification, and we wanted to perform binary classification, with the two classes in our data being North (0) and East (1) Bay. We are interested in these two classes because they are on the other side of the two bridges leading directly out of San Francisco (Golden Gate Bridge leads into North Bay and Bay Bridge leads into East Bay). This is related to our hypothesis, which claims that the bridges affect the travel times out of San Francisco–specifically the Hayes Valley area–enough to cause a difference in how accurate our model is.
 
@@ -74,7 +76,7 @@ To sort and label our data into the two regional groups, we filtered out any des
 
 We then used a Logistic Regression model to fit on the columns of our data frame and calculated the area under the Receiver Operating Characteristic (ROC) curve for pre-lockdown. We did the same thing for post-lockdown. We expect our model to output regional location (North or East Bay / 0 or 1) based on the input average speed, mean travel time, range of lower bound travel time, range of upper bound travel time, range of overall travel time (upper bound-lower bound).
 
-<div class="post-title font-weight-bold"> Model Evaluation and Analysis </div>
+### **Model Evaluation and Analysis**
 
 Our two models (separated by pre- and post-COVID lockdown) are both binary classifiers, and the resulting model test accuracies were 0.8649 and 0.8600 respectively. This is higher than a baseline random classifier, in which we assume the ratios of North to East Bay data points is a good enough method of classification. We had originally used model accuracy as our metric for seeing how well our model does, but since our data is imbalanced (110,303 compared to 39,805 for pre-lockdown and 54,691 compared to 9,266 for post-lockdown), we opted for the area under the ROC curve instead. Our area under the ROC curve for pre-lockdown and post-lockdown are 0.8537 and 0.7876 respectively. Our model accuracy is very high compared to the area under the ROC curve for the post-lockdown model.
 
@@ -108,8 +110,8 @@ The two confusion matrices above show how accurate our model was at predicting c
 
 These two confusion matrices demonstrate how there might be a class imbalance between North and East Bay that’s causing the model to predict North Bay more often. The fact that the baseline model has very little true positives and yet has a high model accuracy tells us that class imbalance might be causing the high model accuracy. Model accuracy might not be the best metric for measuring how well our model is at classifying locations.
 
-<div class="post-title font-weight-bold"> Model Improvements </div>
-<div class="post-title font-italic"> Improvement #1: Fixing Class Weight Imbalance </div>
+### **Model Improvements**
+#### *Improvement #1: Fixing Class Weight Imbalance*
 
 Out of the original data frame, we sorted the destination IDs into separate North and East Bay dataframes based on latitude and longitude boundaries. In our baseline model, we assigned 0 to all of the North Bay IDs, 1 to all of the East Bay IDs, and fit our logistic regression model to the re-combined data frame containing just North and East Bay data points. We did not set the parameters of the Logistic Regression function to anything other than the default. Later, we realized that there were significantly more North Bay data points than East Bay (110,303 compared to 39,805 for pre-lockdown and 54,691 compared to 9,266 for post-lockdown), which meant that our model was being dominated by North Bay classifiers and rendered a less effective classifier. 
 
@@ -117,7 +119,7 @@ To fix this, we implemented the “class_weight” parameter in the Logistic Reg
 
 By doing this, the area under the ROC curve hovered around the same value as before (0.8537 to 0.8519) for pre-lockdown, but increased from 0.7876 to 0.7960 for post-lockdown.  This indicates that the class imbalance was more severe for post-lockdown data than pre-lockdown, which we also observed through the aforementioned North Bay to East Bay data point ratios (~6:1 post-lockdown compared to ~3:1 pre-lockdown). The model accuracy for improvement #1 pre-lockdown and post-lockdown are 0.8794 and 0.7534 respectively. By balancing out the class weights, the model accuracy increased slightly from 0.8649 to 0.8793 pre-lockdown, but decreased greatly 0.8600 to 0.7534 post-lockdown. This signifies that a class imbalance can heavily skew our model accuracy, so if we have a class imbalance, we should probably not use model accuracy to measure how well our model is doing. 
 
-<div class="post-title font-italic"> Improvement #2: Decreasing Redundancy in Features Chosen From Data Set </div>
+#### *Improvement #2: Decreasing Redundancy in Features Chosen From Data Set*
 
 When we were looking at the data, we saw that there were two columns labeled, “Range - Lower Bound Travel Time (Seconds)” and “Range - Upper Bound Travel Time (Seconds)”, so we decided to take the difference of those two columns and put it into a new column called, “Range Travel Time”. When we built our baseline model, we included all the columns with numerical values into our X_train, which included all three columns of “Range - Lower Bound Travel Time (Seconds)”, “Range - Upper Bound Travel Time (Seconds)”, and “Range Travel Time”. We realized that since we already have “Range Travel Time”, it would be redundant to have the other two columns, especially since “Range Travel Time” is a linear combination of the other two. These three columns all describe the same aspect of the data, namely the range travel time in seconds, which is a base we already covered with the feature of range travel time. Including the other two columns(“Range - Lower Bound Travel Time (Seconds)”, “Range - Upper Bound Travel Time (Seconds)”) would overfit to specifics of the training data without actually increasing the efficacy of our classification model.
 
@@ -138,10 +140,10 @@ When we were looking at the data, we saw that there were two columns labeled, �
     </div>
 </div>
 
-<div class="post-title font-weight-bold"> Conclusion </div>
+### **Conclusion**
 We reject our hypothesis because in our final model (after our improvement 2), S-pre (area under the ROC curve for pre-lockdown) was 0.8545 and S-post (area under the ROC curve for post-lockdown) was 0.8606. S-post is greater than S-pre, but only by 0.0061, which is less than the 0.1 difference we previously set as the criteria. 
 
-<div class="post-title font-weight-bold"> Future Work </div>
+### **Future Work**
 In this project, our guided analysis focused on tackling several questions related to pre-lockdown vs. post-lockdown traffic data. In the open-ended sections, we looked at how bridges played a role in the data by splitting up the data into East and North Bay data points, as well as looking into the effect of weekday vs. weekend traffic data points (in notebook). Further work that we can do is to further contextualize the data based on location. We think that comprehensive work can be done to ask the same questions of locations going away from San Francisco and look into more specific factors like public holidays, tourist destinations, or population density within the city to explain why traffic increased or decreased.
 
 Ultimately, the goal would be to scale up the analysis to apply to different parts of the San Francisco Bay Area and better understand traffic patterns as a whole. A better understanding of the important factors will lead to better choices for features to help model predictions on what traffic speeds or travel times are to be expected given a specific region of the Bay Area. For example, our modeling only covered the effect of bridges on travel time differences between North and East Bay, but it would be interesting to include the South Bay or other bridges (San Rafael, Dumbarton, San Mateo bridges) in future analyses. 
