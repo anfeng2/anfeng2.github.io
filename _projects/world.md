@@ -37,7 +37,7 @@ importance: 2
     </div>
 </div>
 
-Each new iteration of a game generates a randomized maze with:
+###### Each new iteration of a game generates a randomized maze with:
 - randomized themes
 - randomized hallways
 - randomized rooms
