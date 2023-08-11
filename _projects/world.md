@@ -1,11 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
+title: World
+description: Built a 2D tile-based world exploration engine with the ability to load, replay, and save the world generated from a seed. Ensured that each new iteration of a world generates a randomized maze with randomized themes, randomized hallways, and randomized rooms where an avatar can move with WASD 
 img: assets/img/3.jpg
 importance: 2
-category: work
-giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
