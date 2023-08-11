@@ -18,8 +18,8 @@ nav_order: 3
 *UGBA 147: Special Topics in Operations and Information Technology Management* - Richard Huntsinger 
 
 ##### **Spring 2022** <br>
-[*COMPSCI 189: Introduction to Machine Learning*](https://people.eecs.berkeley.edu/~jrs/189/) - Jonathan Shewchuk <br>
-[**COMPSCI 161: Computer Security**](https://sp23.cs161.org/) - Peyrin Kao and Raluca Ada Popa <br>
+*[COMPSCI 189: Introduction to Machine Learning](https://people.eecs.berkeley.edu/~jrs/189/)* - Jonathan Shewchuk <br>
+**[COMPSCI 161: Computer Security](https://sp23.cs161.org/)** - Peyrin Kao and Raluca Ada Popa <br>
 DATA C104: Human Contexts and Ethics of Data - Ari Edmundson and Massimo Mazzotti 
 
 ##### **Fall 2022** <br>
