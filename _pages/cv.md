@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /assets/pdf/example_pdf.pdf
+# permalink: https://drive.google.com/file/d/1wOtXSJYpOJf_ztskJrgmiW8rD8JoAI2G/view?usp=sharing
 title: Resume
 nav: true
 nav_order: 6

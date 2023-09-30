@@ -25,6 +25,7 @@ nav_order: 4
 <br>
 
 #### Resources/Notes/Cheatsheets
+<br>
 
 ##### COMPSCI 70: Discrete Mathematics and Probability Theory
 - [Midterm Cheatsheet](https://drive.google.com/file/d/1shgey92ZXkBadddyvAVF2BtgISZXW3mS/view?usp=drive_link)
