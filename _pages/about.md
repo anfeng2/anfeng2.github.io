@@ -18,7 +18,17 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! I am currently a senior at UC Berkeley studying computer science and data science! 
+Hi! Welcome to my website :) 
+
+I am currently a data science and computer science student at UC Berkeley with an EGT of Fall 2024! I grew up in San Francisco, so I have a special fondness for foggy days. ☁︎⋅
+
+I am passionate about using data to extract key insights and as a tool to solve real-world challenges. I find it incredibly motivating that with data, we can form decisions that can leave an impact in the world!
+
+I also like to teach! You can find some of the classes I've taught under the Teaching Page!
+
+In my free time, you can find me curled up in bed making the most out of my Netflix account or making some 3d origamis. 
+
+
 
 
 

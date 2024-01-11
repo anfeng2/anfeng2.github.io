@@ -7,11 +7,17 @@ nav: true
 nav_order: 3
 ---
 
+##### **Spring 2024** <br>
+*INFO 159: Natural Language Processing* - Behrang Mohit<br>
+*STAT 135: Concepts of Statistics* - Adam R Lucas<br>
+*DATA C102: Data, Inference, and Decisions* - Ramesh Sridharan and Alexander Strang<br>
+*STAT 165: Forecasting* - Jacob Noah Steinhardt
+
+
 ##### **Fall 2023** <br>
-*COMPSCI 186: Introduction to Database Systems* - Alvin Cheung <br>
+*[COMPSCI 186: Introduction to Database Systems](https://cs186berkeley.net/)* - Alvin Cheung <br>
 *GLOBAL 150Q: Special Topics In Asia* - Crystal Cohen <br>
 *UGBA 135: Personal Financial Management* - Terrance Odean and Robert Shaye <br>
-*COLWRIT 1: Grammar and Vocabulary of Written English* - Nancy Hunt 
 
 ##### **Summer 2023** <br>
 *COMPSCI 169A: Introduction to Software Engineering* - Ethan Gnibus and Simon Jovanovic <br>
