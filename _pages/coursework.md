@@ -8,11 +8,10 @@ nav_order: 3
 ---
 
 ##### **Spring 2024** <br>
-*INFO 159: Natural Language Processing* - Behrang Mohit<br>
+*[INFO 159: Natural Language Processing](https://ucbnlp24.github.io/webpage/)* - Behrang Mohit<br>
 *STAT 135: Concepts of Statistics* - Adam R Lucas<br>
-*DATA C102: Data, Inference, and Decisions* - Ramesh Sridharan and Alexander Strang<br>
-*STAT 165: Forecasting* - Jacob Noah Steinhardt
-
+*[DATA C102: Data, Inference, and Decisions](https://data102.org/sp24/)* - Ramesh Sridharan and Alexander Strang
+<br>
 
 ##### **Fall 2023** <br>
 *[COMPSCI 186: Introduction to Database Systems](https://cs186berkeley.net/)* - Alvin Cheung <br>

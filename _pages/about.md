@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi! Welcome to my website :) 
 
-I am currently a data science and computer science student at UC Berkeley with an EGT of Fall 2024! I grew up in San Francisco, so I have a special fondness for foggy days. ☁︎⋅
+I am currently a student at UC Berkeley majoring in data science and computer science and minoring in statistics with an EGT of Fall 2024! I grew up in San Francisco, so I have a special fondness for foggy days. ☁︎⋅
 
 I am passionate about using data to extract key insights and as a tool to solve real-world challenges. I find it incredibly motivating that with data, we can form decisions that can leave an impact in the world!
 

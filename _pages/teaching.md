@@ -8,7 +8,9 @@ nav_order: 4
 ---
 
 ##### DATA C100: Principles & Techniques of Data Science
+- Summer 2024: 20-hr Lead Teaching Assistant
 - [Spring 2024](https://ds100.org/sp24/): 20-hr Lead Teaching Assistant
+    - [Resources](https://drive.google.com/drive/folders/1qZPokiow5qt9c7pWI_FKY8rIHVfh_jOE?usp=sharing)
 - [Fall 2023](https://ds100.org/fa23/): 8-hr Teaching Assistant
     - [Resources](https://drive.google.com/drive/folders/1B6KC8f106Gwi0S5DdUlwtb3wzxqB-dDs?usp=drive_link)
 
