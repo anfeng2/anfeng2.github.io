@@ -7,6 +7,12 @@ nav: true
 nav_order: 3
 ---
 
+##### **Fall 2024** <br>
+*[DATA C182: Designing, Visualizing and Understanding Deep Neural Networks](https://datac182fa24.github.io/)* - Eric Kim and Naveen Ashish<br>
+*INFO 153A: Front-End Web Architecture* - Olukayode Ashaolu<br>
+*[CS 198-075/750: Introduction to Building Apps](https://www.cubstart.com/#/schedule)* - Justin Wong
+<br>
+
 ##### **Spring 2024** <br>
 *[INFO 159: Natural Language Processing](https://ucbnlp24.github.io/webpage/)* - Behrang Mohit<br>
 *STAT 135: Concepts of Statistics* - Adam R Lucas<br>
