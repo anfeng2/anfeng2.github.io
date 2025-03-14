@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 ##### DATA C100: Principles & Techniques of Data Science
-- [Summer 2024](https://ds100.org/fa24/): 20-hr Head Teaching Assistant
+- [Fall 2024](https://ds100.org/fa24/): 20-hr Head Teaching Assistant
     - [Resources](https://drive.google.com/drive/folders/1P6Boglcxkr4M2X4IYyl73W1Iz6gFITy0?usp=sharing)
 - [Summer 2024](https://ds100.org/su24/): 20-hr Head Teaching Assistant
     - [Resources](https://drive.google.com/drive/folders/1fs08ylJc-TdTzgg1mu5lpyWG1YoMU6pt?usp=sharing)

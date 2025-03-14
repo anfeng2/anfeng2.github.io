@@ -3,7 +3,7 @@ layout: page
 title: Gitlet
 description: A version-control system that has the same commands as Git, but with an additional command (find)
 img: assets/img/project_gitlet/github.png
-importance: 5
+importance: 6
 category:
 ---
 
