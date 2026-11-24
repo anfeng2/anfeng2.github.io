@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: UC Berkeley • anfeng2@berkeley.edu • <a href='http://linkedin.com/in/angelaxfeng'>linkedin.com/in/angelaxfeng</a>
+subtitle: UC Berkeley • Software Engineer at Tubi • anfeng2@berkeley.edu • <a href='http://linkedin.com/in/angelaxfeng'>linkedin.com/in/angelaxfeng</a>
 
 profile:
   align: right
@@ -18,15 +18,15 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi! Welcome to my website :) 
+Hi! Welcome to my website :)
 
-I recently graduated from UC Berkeley with a double major in Data Science (emphasis on Business and Industrial Analytics) and Computer Science this past fall! I grew up in San Francisco, so I have a special fondness for foggy days. ☁︎⋅
+I'm a Software Engineer at Tubi and a recent graduate of UC Berkeley, where I studied Data Science (emphasis in Business and Industrial Analytics) and Computer Science.
 
-I am passionate about using data to extract key insights and as a tool to solve real-world challenges. I find it incredibly motivating that with data, we can form decisions that can leave an impact in the world!
+I'm passionate about building software that solves real-world problems. I especially enjoy working on backend systems, data infrastructure, and tools that make complex systems more reliable and accessible. I love bringing ideas to life through engineering, whether that's designing scalable systems or building products that make everyday experiences better.
 
-I also like to teach! You can find some of the classes I've taught under the Teaching Page!
+I also enjoy teaching and sharing what I've learned! At Berkeley, I was a Head Teaching Assistant for Principles and Techniques of Data Science (Data 100), where I worked with an incredible team to support students in learning data science. You can find more about my teaching experience on the Teaching page!
 
-In my free time, you can find me curled up in bed making the most out of my Netflix account or making some 3d origamis. 
+Outside of work, you can find me exploring new crafts, making 3D origami, working on creative projects, or curled up watching something new. I grew up in San Francisco, so I have a special fondness for foggy days. ☁︎⋅
 
 
 
